@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AdHubSDKPod'
-  s.version          = '2.1'
-  s.summary          = 'AdHubSDK is a delightful iOS AdHubSDK advertising platform.'
+  s.version          = '2.1.1'
+  s.summary          = 'AdHubSDK fork 备份'
   s.homepage         = 'https://github.com/songMW'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'songMW' => 'songshoubing7664@163.com' }
-  s.source           = { :git => 'https://github.com/songMW/AdHubSDKPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liop/AdHubSDKPod.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = 'AdHubSDKPod/Classes/*.framework'
